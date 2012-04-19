@@ -146,7 +146,7 @@
                                 Return p1.name.CompareTo(p2.name)
                             End Function)
 
-            txtMembers.Text = res.numMembers & " (" & playerList.Count & " listed)"
+            txtMembers.Text = res.numMembers & " (" & playersUseList.Count & " listed)"
 
             Dim nTanks(tankList.Count) As Integer
             Dim i As Integer = 0
